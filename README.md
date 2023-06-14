@@ -6,12 +6,13 @@ You guessed it - you can obtain the pink candy again from SCP-330.
 
 ## Install
 ### LocalAdmin Install:
-To install the plugin via LocalAdmin, boot up your server and type ```p install omgiamhungarian/PinkCandyReturns```.
+To install the plugin via LocalAdmin, boot up your server and type ```p install omgiamhungarian/PinkCandyReturns```. (Make sure 0Harmony.dll is in ```PluginAPI/plugins/(server_port)/dependencies``` after installing.)
 
 ### Manual Install:
-1. Download the latest released PinkCandyReturns.dll from [releases](https://github.com/omgiamhungarian/PinkCandyReturns/releases/).
+1. Download the latest released PinkCandyReturns.dll and dependencies.zip from [releases](https://github.com/omgiamhungarian/PinkCandyReturns/releases/).
 2. Move the PinkCandyReturns.dll to ```PluginAPI/plugins/(server_port)```.
-3. You are done. Restart your server.
+3. Move the 0Harmony.dll from dependencies.zip to ```PluginAPI/plugins/(server_port)/dependencies```.
+4. You are done. Restart your server.
 
 ## Default Configuration file
 
